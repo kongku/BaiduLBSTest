@@ -3,21 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <Button
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start"
-        android:onClick="startLocationBtn"/>
+        android:onClick="startLocationBtn"
+        android:text="start" />
+
     <Button
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="stop"
-        android:onClick="stopLocationBtn"/>
+        android:onClick="stopLocationBtn"
+        android:text="stop" />
+
     <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Baidu Map"
-        android:onClick="gotoMapView"/>
+        android:onClick="gotoMapView"
+        android:text="Baidu Map" />
 
     <TextView
         android:id="@+id/position_text_view"
